@@ -1,0 +1,26 @@
+{
+  "name": "swagger-ui-kube",
+  "version": "1.0.0",
+  "description": "swagger-ui-kube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lstn/swagger-ui-kube.git"
+  },
+  "author": "Lucas Estienne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lstn/swagger-ui-kube/issues"
+  },
+  "homepage": "https://github.com/lstn/swagger-ui-kube#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mustache-express": "^1.2.8",
+    "swagger-ui-dist": "3.21.0",
+    "swagger-ui-express": "^4.0.2"
+  }
+}
